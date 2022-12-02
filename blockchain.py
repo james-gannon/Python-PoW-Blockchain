@@ -1,4 +1,4 @@
-# Module 1 - Create Blockchain
+# Create Blockchain
 
 # Import libraries
 import datetime
@@ -6,11 +6,7 @@ import hashlib
 import json
 from flask import Flask, jsonify # (Falsk and jsonify classes from flask library)
 
-# Part 1 - Building a blockchain 
-
-# You can build anything with a class, instead of a series of functions
-# - Define all of the properties of the self-driving car, plus some
-#   methods (go forward, left right...etc.), which can be included in the class
+# Blockchain Logic
 
 class Blockchain:
     
@@ -66,7 +62,7 @@ class Blockchain:
             block_index += 1
         return True
     
-#Part 2 - Mining our blockchain
+#Blockchain Mining
 
 # Creating a web app
 app = Flask(__name__)
